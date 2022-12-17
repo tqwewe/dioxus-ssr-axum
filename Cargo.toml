@@ -1,0 +1,7 @@
+[workspace]
+members = ["app", "server"]
+
+[workspace.dependencies]
+app = { path = "app" }
+
+dioxus = "0.2.4"
